@@ -91,12 +91,6 @@ The outputs from these queries are directly used in:
 •	Power BI → Interactive dashboards and YoY analysis
 •	Tableau → Trend visualization and storytelling
 All dashboards rely on this module for metric accuracy and alignment.
-___________________________________________________________________________________________
-# File Structure
-PostgreSQL_Queries/
-│
-├── road_accident.sql
-└── README.md
 __________________________________________________________________________________________
 # Key Takeaways
 •	Demonstrates SQL-first analytics engineering
