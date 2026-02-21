@@ -9,16 +9,16 @@ scalable, and reusable time-based analysis.
 
 ## Dataset – File Size Notice
 
-The Power BI dashboard is built using an Excel-based dataset as its primary data source.  
-However, the dataset Excel file exceeds GitHub’s 25 MB file size limit due to the volume of historical road accident records.
+The Power BI dashboard is built using an CSV-based dataset as its primary data source.  
+However, the dataset CSV file exceeds GitHub’s 25 MB file size limit due to the volume of historical road accident records.
 
 To maintain data completeness and analytical accuracy, the dataset file is **not stored directly in this repository**.
 
-📥 **Download Dataset (Excel – Full Version):**  
+📥 **Download Dataset (CSV – Full Version):**  
 https://drive.google.com/drive/folders/1clqaFrRLNlpk5DJG2QSK-zruM0HZ4ccn?usp=drive_link
 
 ### How the Dataset Is Used
-- The Excel dataset is imported into Power BI
+- The CSV dataset is imported into Power BI
 - A dedicated Calendar (Date) table is created from the dataset’s date column
 - All time-based analysis (CY, PY, YoY) is driven by the Calendar table
 - The dataset remains unchanged to preserve data integrity
