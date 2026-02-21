@@ -7,7 +7,19 @@ It acts as the data foundation layer, where raw accident data is transformed int
 business-ready KPIs consumed by Excel, Power BI, and Tableau dashboards.
 All calculations strictly follow the business requirements defined by the client and 
 ensure metric consistency across all reporting tools.
-______________________________________________________________________________________
+
+## Dataset – File Size Notice
+
+Using an CSV-based dataset as its primary data source.  
+However, the dataset CSV file exceeds GitHub’s 25 MB file size limit due to the 
+volume of historical road accident records.
+
+To maintain data completeness and analytical accuracy, the dataset file is 
+**not stored directly in this repository**.
+
+📥 **Download Dataset (CSV – Full Version):**  
+https://drive.google.com/drive/folders/1clqaFrRLNlpk5DJG2QSK-zruM0HZ4ccn?usp=drive_link
+_________________________________________________________________________________________
 # Business Requirements Addressed
 The SQL queries in this module were designed to fulfill the following analytical 
 requirements:
