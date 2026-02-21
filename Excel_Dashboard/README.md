@@ -8,8 +8,17 @@ involvement, road conditions, and environmental factors.
 The dashboard is built entirely using Excel Pivot Tables and Pivot Charts, making it highly scalable,
 refreshable, and suitable for business users without advanced BI tools.
 ___________________________________________________________________________________________________________
+## 📊 Excel Dashboard (Pivot Table Based)
+
+Due to GitHub’s 25 MB file size limit, the full Excel dashboard is hosted externally.
+
 # 📥 **Download Excel Dashboard**
 https://docs.google.com/spreadsheets/d/100br9p5aHFclqecP5zvf7Cml5G4VedU-/edit?usp=drive_link&ouid=103884255912938521241&rtpof=true&sd=true
+
+## Key Notes
+- Built using Pivot Tables and Pivot Charts
+- Optimized for KPI validation and analysis
+- Fully interactive (filters, slicers, drill-downs)
 ___________________________________________________________________________________________________________
 # 🧹 Data Cleaning & Preparation
 Before dashboard creation, the dataset was cleaned and standardized in Excel to ensure accuracy,
