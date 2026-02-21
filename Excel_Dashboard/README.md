@@ -13,8 +13,7 @@ ________________________________________________________________________________
 Due to GitHub’s 25 MB file size limit, the full Excel dashboard is hosted externally.
 
 # 📥 **Download Excel Dashboard**
-https://docs.google.com/spreadsheets/d/100br9p5aHFclqecP5zvf7Cml5G4VedU-/edit?usp=drive_link&ouid=103884255912938521241&rtpof=true&sd=true
-
+https://docs.google.com/spreadsheets/d/1zNUMivHMyBQ4fhf1_6lUC-G1oBfP5D6h/edit?usp=sharing&ouid=103884255912938521241&rtpof=true&sd=true
 ## Key Notes
 - Built using Pivot Tables and Pivot Charts
 - Optimized for KPI validation and analysis
