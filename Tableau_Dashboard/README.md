@@ -30,9 +30,13 @@ An **updated version of the dataset** is used for the **Tableau dashboard**, cov
 ____________________________________________________________________________________________________________
 # Business Objectives
 •	Analyze fatal road accident patterns.
+
 •	Compare Current Year (CY) vs Previous Year (PY) metrics.
+
 •	Identify high-risk vehicles, road types, and conditions.
+
 •	Enable interactive and parameter-driven exploration.
+
 •	Support data-driven safety and policy decisions.
 ____________________________________________________________________________________________________________
 # Parameters (User-Controlled Inputs)
