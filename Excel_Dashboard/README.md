@@ -18,6 +18,11 @@ https://docs.google.com/spreadsheets/d/1zNUMivHMyBQ4fhf1_6lUC-G1oBfP5D6h/edit?us
 - Built using Pivot Tables and Pivot Charts
 - Optimized for KPI validation and analysis
 - Fully interactive (filters, slicers, drill-downs)
+
+## Excel Dashboard Viewing Note
+This dashboard is built using Pivot Tables, Pivot Charts, and Timeline slicers.
+When opened in Google Drive preview (Excel Online), some visuals may appear missing due to platform limitations.
+📥 Please download the file and open it in **Microsoft Excel Desktop** to view the complete and fully interactive dashboard.
 ___________________________________________________________________________________________________________
 # 🧹 Data Cleaning & Preparation
 Before dashboard creation, the dataset was cleaned and standardized in Excel to ensure accuracy,
