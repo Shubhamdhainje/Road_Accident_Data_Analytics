@@ -42,12 +42,19 @@ ________________________________________________________________________________
 # Parameters (User-Controlled Inputs)
 The dashboard uses Tableau Parameters to allow dynamic analysis:
 Parameter	Purpose
+
 Current Year	Selects the analysis year
+
 Previous Year	Enables YoY comparison
+
 Accident Severity	Filters analysis by severity level (Fatal focus)
+
 📌 Why Parameters Are Used
+
 •	Enable side-by-side year comparison.
+
 •	Avoid hard-coded filters.
+
 •	Improve dashboard flexibility and reuse.
 ____________________________________________________________________________________________________________
 # Calculated Fields (Core Logic)
