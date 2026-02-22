@@ -6,13 +6,34 @@ year-over-year (YoY) performance, accident severity, vehicle involvement, enviro
 and geographic distribution.
 The dashboard is built using calculated fields and parameters to support dynamic comparisons, flexible
 filtering, and interactive analysis.
+
+## 📁 Dataset – File Size Notice
+
+The Power BI dashboard is built using a **CSV-based dataset** as its primary data source.
+However, the dataset CSV file exceeds GitHub’s **25 MB file size limit** due to the volume of historical 
+road accident records.
+
+To maintain **data completeness and analytical accuracy**, the dataset file is **not stored directly in 
+this repository**.
+
+📥 **Download Dataset (CSV – Full Version):**
+👉 https://docs.google.com/spreadsheets/d/1Bdq36Uh41HLpf40f2yIBFiLWVu97agvbKhbvypIF3PU/edit?usp=sharing
+
+## Dataset Update for Tableau Dashboard
+
+An **updated version of the dataset** is used for the **Tableau dashboard**, covering an extended time period:
+
+* **Year range:** **2019 to 2022**
+* Enables **multi-year comparison and trend analysis**
+* Supports **parameter-driven CY vs PY analysis** in Tableau
+
 ____________________________________________________________________________________________________________
 # Business Objectives
-•	Analyze fatal road accident patterns
-•	Compare Current Year (CY) vs Previous Year (PY) metrics
-•	Identify high-risk vehicles, road types, and conditions
-•	Enable interactive and parameter-driven exploration
-•	Support data-driven safety and policy decisions
+•	Analyze fatal road accident patterns.
+•	Compare Current Year (CY) vs Previous Year (PY) metrics.
+•	Identify high-risk vehicles, road types, and conditions.
+•	Enable interactive and parameter-driven exploration.
+•	Support data-driven safety and policy decisions.
 ____________________________________________________________________________________________________________
 # Parameters (User-Controlled Inputs)
 The dashboard uses Tableau Parameters to allow dynamic analysis:
@@ -21,9 +42,9 @@ Current Year	Selects the analysis year
 Previous Year	Enables YoY comparison
 Accident Severity	Filters analysis by severity level (Fatal focus)
 📌 Why Parameters Are Used
-•	Enable side-by-side year comparison
-•	Avoid hard-coded filters
-•	Improve dashboard flexibility and reuse
+•	Enable side-by-side year comparison.
+•	Avoid hard-coded filters.
+•	Improve dashboard flexibility and reuse.
 ____________________________________________________________________________________________________________
 # Calculated Fields (Core Logic)
 Custom Calculated Fields are used to derive KPIs and trends, including:
