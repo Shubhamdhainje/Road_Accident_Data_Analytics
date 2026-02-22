@@ -38,11 +38,17 @@ ________________________________________________________________________________
 # Data Architecture
 
 Raw Dataset (CSV / Excel)
+
         ↓
+
 PostgreSQL (KPI & Aggregation Logic)
+
         ↓
+
 Excel (Pivot-based Validation)
+
         ↓
+
 Power BI / Tableau Dashboards
 _________________________________________________________________________________________
 # PostgreSQL (Data Foundation)
