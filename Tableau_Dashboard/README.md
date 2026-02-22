@@ -59,89 +59,152 @@ Accident Severity	Filters analysis by severity level (Fatal focus)
 ____________________________________________________________________________________________________________
 # Calculated Fields (Core Logic)
 Custom Calculated Fields are used to derive KPIs and trends, including:
+
 •	Total Accidents
+
 •	Total Casualties
+
 •	Fatal Casualties
+
 •	Serious Casualties
+
 •	Slight Casualties
+
 •	Year-over-Year (YoY) % Change
+
 •	CY vs PY monthly trend calculations
+
 📌 Calculations ensure:
+
 •	Consistent metric definitions
+
 •	Accurate time-based comparison
+
 •	Reusable logic across visuals
 ____________________________________________________________________________________________________________
 # Key KPIs (Summary Layer)
+
 KPI	Description
+
 Total Accidents	Total accident count for selected year
+
 Total Casualties	Total casualties across severities
+
 Fatal Casualties	Fatal casualty count with YoY change
+
 Serious Casualties	Serious injuries with YoY change
+
 Slight Casualties	Minor injuries with YoY change
+
 All KPIs dynamically respond to parameters and filters.
 ____________________________________________________________________________________________________________
 # Core Visual Analysis
+
 1️ Fatal Casualties by Vehicle Type
+
 Displays fatal casualties and YoY variance across:
+
 •	Car
+
 •	Motorcycle
+
 •	Bus
+
 •	Van
+
 •	Agricultural vehicles
+
 •	Others
+
 🔍 Insight: Cars and motorcycles dominate fatal counts, with notable YoY variation.
 _____________________________________________________________________________________________________________
 2️ Monthly Trend Analysis (CY vs PY)
+
 Sparkline and line visuals driven by:
+
 •	Selected Current Year
+
 •	Selected Previous Year
+
 🔍 Insight: Clear seasonal trends and year-based differences are visible.
 _____________________________________________________________________________________________________________
 3️ Fatal Casualties by Weather Condition
+
 Segmentation across:
+
 •	Fine
+
 •	Rain
+
 •	Snow / Fog
+
 •	Other
+
 🔍 Insight: Most fatalities occur under fine weather conditions.
 _____________________________________________________________________________________________________________
 4️ Fatal Casualties by Road Surface
+
 Distribution across:
+
 •	Dry
+
 •	Wet
+
 •	Frost / Snow
+
 •	Unknown
+
 🔍 Insight: Dry surfaces account for the highest fatality counts.
 _____________________________________________________________________________________________________________
 5️ Fatal Casualties by Road Type
+
 Bar chart comparison:
+
 •	Single carriageway
+
 •	Dual carriageway
+
 •	Roundabout
+
 •	Slip road
+
 •	One-way street
+
 🔍 Insight: Single carriageways are the most accident-prone.
 ______________________________________________________________________________________________________________
 6️ Geographic Distribution (Map View)
+
 Map visualization highlights location-wise concentration of fatal casualties, supporting geographic 
 risk assessment.
 ______________________________________________________________________________________________________________
 # Interactivity & Filters
+
 •	Parameter-driven year selection
+
 •	Severity-based filtering
+
 •	Dynamic recalculation of KPIs and visuals
+
 •	Responsive charts and maps
 ______________________________________________________________________________________________________________
 # Data Modeling & Design Practices
+
 •	Cleaned and standardized dataset
+
 •	Calculated fields centralized for reuse
+
 •	Parameters used instead of hard-coded filters
+
 •	Dashboard optimized for performance and clarity
 ______________________________________________________________________________________________________________
 # File Information
+
 •	Tool: Tableau
+
 •	File Type: .twbx
+
 •	Analysis Type: Fatal Accident & YoY Analysis
+
 •	Interaction Type: Parameter-driven dashboard
 ______________________________________________________________________________________________________________
 # 📌 Conclusion
